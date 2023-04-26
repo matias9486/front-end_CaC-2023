@@ -1,0 +1,70 @@
+
+.ancla:before {
+    display: block;
+    content: " ";
+    margin-top: -90px;
+    height: 90px;
+    visibility: hidden;
+}
+
+.carousel-item>img{
+    filter: brightness(40%);        
+}
+
+.carousel-caption{    
+    position: relative;
+    right: 10%!important;
+    top: 8%;
+    bottom: auto!important;
+    left: auto!important;    
+}
+
+
+.carousel-caption>*{
+    display: flex;
+    justify-content: end;
+}
+
+
+.carousel-item img{
+    max-height: 500px;
+}
+
+@media screen and (min-width: 992px) {     
+    .navbar-collapse{
+        display: flex;
+        justify-content: end;
+    }
+
+    .carousel-caption{                
+        position: relative;
+        right: 10%!important;
+        bottom: 10%!important;
+        left: auto!important;         
+    }
+}
+
+.btn-submit{
+    color: #fff !important;
+    background-color: rgb(157, 212, 74) !important;
+    border-color:  rgb(157, 212, 74)!important;
+}
+
+.btn-ticket{
+    color: #fff !important;
+    background-color: #1bb94a !important;
+    border-color: #1bb94a!important;
+}
+
+.text-dotted{
+    text-decoration: underline dotted;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: rgb(27, 53, 83);    
+}
