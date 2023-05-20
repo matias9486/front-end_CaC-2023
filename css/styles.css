@@ -1,3 +1,6 @@
+/*#seccion1 {
+    margin-top: -50px;
+  }*/
 
 .ancla:before {
     display: block;
@@ -5,6 +8,14 @@
     margin-top: -90px;
     height: 90px;
     visibility: hidden;
+}
+
+.separacionNavBarIndex{
+    margin-top: 83px;
+}
+
+.separacionNavBarTicket{
+    margin-top: 95px;
 }
 
 .carousel-item>img{
